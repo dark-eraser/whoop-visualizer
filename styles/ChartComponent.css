@@ -1,0 +1,38 @@
+/* style.css */
+
+/* General styles for the form control and select components */
+.form-control-container {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Specific styles for the select component */
+  .select-component {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  /* Styles for the select input label */
+  .select-input-label {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    transition: color 0.2s;
+  }
+  
+  /* Styles when the select component is focused */
+  .select-focused-label {
+    color: #a7b53f;
+  }
+  
+  /* Styles for menu items within the select dropdown */
+  .menu-item {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
